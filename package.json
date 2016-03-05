@@ -5,11 +5,15 @@
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-livereload": "^3.8.1",
     "jasmine-core": "^2.2.0",
     "karma": "^0.13.21",
     "karma-chrome-launcher": "^0.2.2",
+    "karma-cli": "^0.1.2",
     "karma-firefox-launcher": "^0.1.7",
-    "karma-jasmine": "^0.3.7"
+    "karma-jasmine": "^0.3.7",
+    "qunitjs": "^1.22.0"
   },
   "scripts": {
     "test": "karma start karma.conf.js"

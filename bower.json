@@ -1,0 +1,26 @@
+{
+  "name": "codewars-js",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "alex"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/AlexGridasov/codewars-js",
+  "moduleType": [
+    "node"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "livereload-js": "^2.2.1"
+  },
+  "devDependencies": {
+    "livereload-js": "^2.2.1"
+  }
+}
