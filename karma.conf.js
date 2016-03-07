@@ -3,6 +3,15 @@
 
 module.exports = function(config) {
   config.set({
+    plugins:[
+      'karma-jasmine',
+      'karma-requirejs',
+      'karma-coverage',
+      'karma-junit-reporter',
+      'karma-phantomjs-launcher',
+      'karma-chrome-launcher',
+      'karma-firefox-launcher',
+    ],
 
     // base path that will be used to resolve all patterns (eg. files, exclude)
     basePath: '',

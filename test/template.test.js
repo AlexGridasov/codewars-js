@@ -1,7 +1,7 @@
 /**
  * Created by alex on 05.03.16.
  */
-describe('Obj', function () {
+describe('---Template---', function () {
 
     describe('avg', function () {
         it('Obj avg should be 0', function () {

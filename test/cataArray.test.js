@@ -1,7 +1,7 @@
 /**
  * Created by alex on 05.03.16.
  */
-describe('arrayObj', function () {
+describe('Array', function () {
 
     describe('avg', function () {
         it('avg [0, 1, 2] should be 1', function () {
