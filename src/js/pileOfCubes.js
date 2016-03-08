@@ -14,10 +14,12 @@ var PileOfCubes = {
      findNb(91716553919377) --> -1
      */
     findNb: function (m) {
-        sum = 0;
-        for (i = n; i > 0; --i) {
-            sum += Math.pow(i, 3);
+        var sum = 0, n = 1;
+
+        while (sum < m) {
+            sum += Math.pow(n++, 3);
         }
-        return 0;
+
+        return sum == m ? n - 1 : -1;
     }
 };
